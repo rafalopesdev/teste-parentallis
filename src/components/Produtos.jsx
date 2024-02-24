@@ -10,7 +10,9 @@ const Produtos = () => {
       <div className="container m-auto grid grid-cols-3 gap-5">
         <div className="bg rounded-lg p-5 bg-[#69688C]">
           <img src={Woman} width={100} alt="Menina" className="m-auto" />
-          <h3>Para Você</h3>
+          <h3 className="text-center text-[#F29F8D] text-xl font-bold">
+            Para Você
+          </h3>
           <p className="text-center text-white">
             Levar saúde emocional às pessoas através da ampliação da visão sobre
             parentalidade consciente. Acreditamos no ser humano de forma
@@ -20,7 +22,9 @@ const Produtos = () => {
         </div>
         <div className="border-2 rounded-lg p-5 bg-[#69688C]">
           <img src={School} width={100} alt="Menino" className="m-auto" />
-          <h3>Para Escolas</h3>
+          <h3 className="text-center text-[#F29F8D] text-xl font-bold">
+            Para Escolas
+          </h3>
           <p className="text-center text-white">
             Reduzir danos! Reeducar os adultos cuidadores (pais, mães, avós,
             tios, padrinhos etc.) para que, ao olhar para sua história, possam
@@ -31,7 +35,9 @@ const Produtos = () => {
         </div>
         <div className="border-2 rounded-lg p-5 bg-[#69688C]">
           <img src={Company} width={100} alt="Familia" className="m-auto" />
-          <h3>Para Empresas</h3>
+          <h3 className="text-center text-[#F29F8D] text-xl font-bold">
+            Para Empresas
+          </h3>
           <p className="text-center text-white">
             Democratizar as informações sobre parentalidade consciente para que
             os adultos cuidadores possam contribuir com a formação de uma nova e
