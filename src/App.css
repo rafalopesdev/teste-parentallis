@@ -1,10 +1,12 @@
-.line-before::after {
+.line::after {
   content: '';
   width: 100px;
   height: 3px;
   background: green;
   display: block;
   margin: 0 auto;
+  background: #f29f8d;
+  margin-top: 10px;
 }
 h2 {
   font-weight: 600;
@@ -13,4 +15,11 @@ h2 {
 p {
   font-size: 1rem;
   font-weight: 400;
+}
+.menu li {
+  color: #ffff;
+  transition: 0.1s ease-in;
+}
+.menu li:hover {
+  color: #f29f8d;
 }
