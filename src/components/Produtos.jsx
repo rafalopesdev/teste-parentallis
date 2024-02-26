@@ -1,14 +1,13 @@
-import React from 'react';
 import Woman from '../assets/woman.svg';
 import School from '../assets/school.svg';
 import Company from '../assets/company.svg';
 
 const Produtos = () => {
   return (
-    <div className="w-full h-full">
-      <h2 className="line-before text-center">Nosso propósito</h2>
-      <div className="container m-auto grid grid-cols-3 gap-5">
-        <div className="bg rounded-lg p-5 bg-[#69688C]">
+    <div className="w-full">
+      <h2 className="line-before text-center">Nossos Produtos</h2>
+      <div className="h-full container m-auto grid grid-cols-3 gap-5">
+        <div className="relative bg rounded-lg p-5 bg-[#69688C]">
           <img src={Woman} width={100} alt="Menina" className="m-auto" />
           <h3 className="text-center text-[#F29F8D] text-xl font-bold">
             Para Você
@@ -18,9 +17,13 @@ const Produtos = () => {
             parentalidade consciente. Acreditamos no ser humano de forma
             integral: físico, mental e emocional!
           </p>
-          <a href="">Saiba Mais</a>
+          <div className=" w-full flex flex-row right-0 justify-center bottom-0">
+            <a href="" className="btn-produtos">
+              Saiba Mais
+            </a>
+          </div>
         </div>
-        <div className="border-2 rounded-lg p-5 bg-[#69688C]">
+        <div className="w-full relative h-full bg rounded-lg p-5 bg-[#69688C]">
           <img src={School} width={100} alt="Menino" className="m-auto" />
           <h3 className="text-center text-[#F29F8D] text-xl font-bold">
             Para Escolas
@@ -31,9 +34,13 @@ const Produtos = () => {
             entender e quebrar o ciclo de violência transgeracional da qual
             foram criados e, assim, recriar uma nova história para educar.
           </p>
-          <a href="">Saiba Mais</a>
+          <div className=" w-full flex flex-row right-0 justify-center bottom-0">
+            <a href="" className="btn-produtos">
+              Saiba Mais
+            </a>
+          </div>
         </div>
-        <div className="border-2 rounded-lg p-5 bg-[#69688C]">
+        <div className="w-full relative h-full bg rounded-lg p-5 bg-[#69688C]">
           <img src={Company} width={100} alt="Familia" className="m-auto" />
           <h3 className="text-center text-[#F29F8D] text-xl font-bold">
             Para Empresas
@@ -43,7 +50,11 @@ const Produtos = () => {
             os adultos cuidadores possam contribuir com a formação de uma nova e
             verdadeira geração mais saudável emocionalmente.
           </p>
-          <a href="">Saiba Mais</a>
+          <div className=" w-full flex flex-row right-0 justify-center  bottom-0">
+            <a href="" className="btn-produtos">
+              Saiba Mais
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ const Nav = () => {
         <a href="">
           <img src={Logo} width={160} alt="Logo Parentallis" />
         </a>
-        <ul className="flex gap-6 menu">
+        <ul className="flex items-center gap-6 menu">
           <li>
             <a href="">Educação Parentall</a>
           </li>
@@ -21,7 +21,10 @@ const Nav = () => {
           <li>
             <a href="">Nossos Produtos</a>
           </li>
-          <a href="" className="bg-green-400 flex items-center text-lg p-3">
+          <a
+            href=""
+            className="btn-whats-nav bg-green-400 flex items-center gap-1 rounded-full"
+          >
             <BsWhatsapp />
             Contato
           </a>

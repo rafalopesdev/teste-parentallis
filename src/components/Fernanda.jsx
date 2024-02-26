@@ -1,4 +1,3 @@
-import React from 'react';
 import FotoFernanda from '../assets/foto-fernanda.png';
 
 const Fernanda = () => {
@@ -6,7 +5,7 @@ const Fernanda = () => {
     <div className="w-full h-full">
       <div className="container m-auto grid grid-cols-2 gap-5 items-center justify-between">
         <div className="text-center">
-          <h2 className="line-before title">
+          <h2 className="line-before title text-[#69688C]">
             Muito prazer, eu sou a Fernanda Bardela!
           </h2>
           <p>

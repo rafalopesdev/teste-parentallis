@@ -1,4 +1,3 @@
-import React from 'react';
 import Family from '../assets/family.png';
 
 const About = () => {
@@ -6,7 +5,9 @@ const About = () => {
     <div className="w-full h-full bg-[#69688C]">
       <div className="container m-auto grid grid-cols-2 gap-5 items-center justify-between">
         <div>
-          <h2 className="line-before title">Sobre a Parentallis</h2>
+          <h2 className="line-before title text-[#F29F8D]">
+            Sobre a Parentallis
+          </h2>
           <p className="text-white">
             A palavra PARENTALLIS vem do Latim PARENTALIS, que é “relativo a pai
             ou mãe”. Também tem origem na palavra PARERE, que significa “dar à

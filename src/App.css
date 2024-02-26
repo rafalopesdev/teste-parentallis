@@ -23,3 +23,15 @@ p {
 .menu li:hover {
   color: #f29f8d;
 }
+.btn-produtos {
+  border-radius: 0.4rem;
+  border: 2px solid white;
+  padding: 8px 50px;
+  margin-bottom: 10px;
+  color: #f29f8d;
+}
+.btn-whats-nav {
+  padding: 6px 15px;
+  background: #f29f8d;
+  color: #283959;
+}
