@@ -1,20 +1,20 @@
 const Video = () => {
   return (
-    <div className="container m-auto">
-      <h2 className="text-center line-before text-[#69688C]">
-        O que é a Educação Parental?
-      </h2>
-      <div>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/TpIZcKaUy6A?si=94yhz4l6JvxVGstI"
-          title="YouTube video player"
-          // frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          className="m-auto"
-        ></iframe>
+    <div className="w-full h-full spacer">
+      <div className="container m-auto" id="video">
+        <h2 className="text-center text-2xl font-bold lg:text-4xl line-before text-[#69688C]">
+          O que é a Educação Parental?
+        </h2>
+        <div className="max-w-screen-md bg-blue-400 m-auto">
+          <iframe
+            src="https://www.youtube.com/embed/TpIZcKaUy6A?si=94yhz4l6JvxVGstI"
+            title="YouTube video player"
+            // frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            className="m-auto w-full h-96"
+          ></iframe>
+        </div>
       </div>
     </div>
   );

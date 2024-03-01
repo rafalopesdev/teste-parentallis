@@ -2,10 +2,10 @@ import FotoFernanda from '../assets/foto-fernanda.png';
 
 const Fernanda = () => {
   return (
-    <div className="w-full h-full">
-      <div className="container m-auto grid grid-cols-2 gap-5 items-center justify-between">
+    <div className="spacer-top w-full h-full">
+      <div className="container m-auto grid lg:grid-cols-2 gap-5 items-center justify-between">
         <div className="text-center">
-          <h2 className="line-before title text-[#69688C]">
+          <h2 className="text-center text-2xl font-bold lg:text-4xl line-before title text-[#69688C]">
             Muito prazer, eu sou a Fernanda Bardela!
           </h2>
           <p>

@@ -1,3 +1,9 @@
+.spacer {
+  margin: 50px 0;
+}
+.spacer-top {
+  margin-top: 50px;
+}
 .line::after {
   content: '';
   width: 100px;
@@ -8,10 +14,7 @@
   background: #f29f8d;
   margin-top: 10px;
 }
-h2 {
-  font-weight: 600;
-  font-size: 2.5rem;
-}
+
 p {
   font-size: 1rem;
   font-weight: 400;
@@ -34,4 +37,8 @@ p {
   padding: 6px 15px;
   background: #f29f8d;
   color: #283959;
+  transition: 0.2s ease-in;
+}
+.btn-whats-nav:hover {
+  background: #8ea3bf;
 }

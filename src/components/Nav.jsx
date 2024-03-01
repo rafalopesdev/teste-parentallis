@@ -1,5 +1,6 @@
 import Logo from '../assets/logo.svg';
 import { BsWhatsapp } from 'react-icons/bs';
+import { BiMenu } from 'react-icons/bi';
 
 const Nav = () => {
   return (
@@ -8,18 +9,18 @@ const Nav = () => {
         <a href="">
           <img src={Logo} width={160} alt="Logo Parentallis" />
         </a>
-        <ul className="flex items-center gap-6 menu">
+        <ul className="hidden lg:flex items-center gap-6 menu">
           <li>
-            <a href="">Educação Parentall</a>
+            <a href="#video">Educação Parentall</a>
           </li>
           <li>
-            <a href="">Sobre a Parentallis</a>
+            <a href="#about">Sobre a Parentallis</a>
           </li>
           <li>
-            <a href="">Nossa Consultoria</a>
+            <a href="#consultoria">Nossa Consultoria</a>
           </li>
           <li>
-            <a href="">Nossos Produtos</a>
+            <a href="#produto">Nossos Produtos</a>
           </li>
           <a
             href=""
@@ -29,6 +30,10 @@ const Nav = () => {
             Contato
           </a>
         </ul>
+
+        <a href="" className="text-2xl lg:hidden">
+          <BiMenu />
+        </a>
       </nav>
     </div>
   );

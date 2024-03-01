@@ -3,9 +3,12 @@ import Family from '../assets/family.png';
 const About = () => {
   return (
     <div className="w-full h-full bg-[#69688C]">
-      <div className="container m-auto grid grid-cols-2 gap-5 items-center justify-between">
+      <div
+        className="container m-auto grid lg:grid-cols-2 gap-5 items-center justify-between"
+        id="about"
+      >
         <div>
-          <h2 className="line-before title text-[#F29F8D]">
+          <h2 className="text-center text-2xl font-bold lg:text-4xl line-before text-[#F29F8D]">
             Sobre a Parentallis
           </h2>
           <p className="text-white">

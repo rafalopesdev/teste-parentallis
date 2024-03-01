@@ -1,10 +1,10 @@
-import React from 'react';
-
 const Youtube = () => {
   return (
-    <div className="w-full h-full">
-      <h2 className="text-center">Veja nosso canal no YoutTube</h2>
-      <div className="container m-auto grid grid-cols-3">
+    <div className="spacer w-full h-full">
+      <h2 className="text-center text-2xl font-bold lg:text-4xl text-[#69688C]">
+        Veja nosso canal no YoutTube
+      </h2>
+      <div className="container m-auto grid lg:grid-cols-3">
         <div>
           <iframe
             src="https://www.youtube.com/embed/RH0loOIXk3k?si=1GAmgZtYLp2DqSCD"

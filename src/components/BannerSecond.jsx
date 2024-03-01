@@ -1,9 +1,8 @@
-import React from 'react';
 import BannerSec from '../assets/bg-banner-second.png';
 
 const BannerSecond = () => {
   return (
-    <div className="w-full h-full relative flex items-center justify-center">
+    <div className="spacer w-full h-full relative flex items-center justify-center">
       <div className="container m-auto absolute">
         <h2 className="text-center text-[#8EA3BF]">
           Maternar é antes de tudo se auto educar para sempre

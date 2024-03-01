@@ -1,4 +1,3 @@
-import React from 'react';
 import Girl from '../assets/girl.svg';
 import Boy from '../assets/boy.svg';
 import Family from '../assets/family.svg';
@@ -6,8 +5,10 @@ import Family from '../assets/family.svg';
 const Proposito = () => {
   return (
     <div className="w-full h-full">
-      <h2 className="line-before text-center">Nosso propósito</h2>
-      <div className="container m-auto grid grid-cols-3 gap-5">
+      <h2 className="text-center text-2xl font-bold lg:text-4xl line-before text-[#69688C]">
+        Nosso propósito
+      </h2>
+      <div className="container m-auto grid lg:grid-cols-3 gap-5">
         <div className="border-2 rounded-lg p-5">
           <img src={Girl} alt="Menina" className="m-auto" />
           <p className="text-center">

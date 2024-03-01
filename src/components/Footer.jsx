@@ -8,7 +8,9 @@ const Footer = () => {
     <div className="w-full h-full bg-[#283959]">
       <div className="container m-auto flex justify-center">
         <div className="bg-[#8EA3BF] rounded-xl relative -top-16 w-full max-w-xl p-5">
-          <h2 className="text-center text-[#283959]">Quer saber mais?</h2>
+          <h2 className="text-center text-2xl font-bold lg:text-4xl text-[#283959]">
+            Quer saber mais?
+          </h2>
           <p className="text-center text-white">
             Clique aqui para falar com a gente
           </p>
@@ -23,14 +25,16 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="container m-auto flex justify-between items-center text-white  pb-5">
-        <p>© Parentallis 2023 - Todos os direitos reservados</p>
-        <div className="flex items-center gap-24 text-2xl text-[#F29F8D]">
-          <div className="flex gap-3 items-center">
+      <div className="container m-auto lg:flex justify-between items-center text-white  pb-5">
+        <p className="text-center">
+          © Parentallis 2023 - Todos os direitos reservados
+        </p>
+        <div className="md:flex items-center gap-24 text-2xl text-[#F29F8D]">
+          <div className="flex gap-3 items-center justify-center">
             <MdEmail />
             <p className="text-white">parentallis@outlook.com</p>
           </div>
-          <div className="flex flex-row gap-3">
+          <div className="flex flex-row gap-3 justify-center">
             <a href="">
               <FaYoutube />
             </a>

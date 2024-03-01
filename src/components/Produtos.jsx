@@ -4,9 +4,11 @@ import Company from '../assets/company.svg';
 
 const Produtos = () => {
   return (
-    <div className="w-full">
-      <h2 className="line-before text-center">Nossos Produtos</h2>
-      <div className="h-full container m-auto grid grid-cols-3 gap-5">
+    <div className="spacer w-full" id="produto">
+      <h2 className="text-center text-2xl font-bold lg:text-4xl line-before text-[#69688C]">
+        Nossos Produtos
+      </h2>
+      <div className="h-full container m-auto grid lg:grid-cols-3 gap-5">
         <div className="relative bg rounded-lg p-5 bg-[#69688C]">
           <img src={Woman} width={100} alt="Menina" className="m-auto" />
           <h3 className="text-center text-[#F29F8D] text-xl font-bold">
