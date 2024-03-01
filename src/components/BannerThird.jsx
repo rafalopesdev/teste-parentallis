@@ -1,4 +1,4 @@
-import BannerSec from '../assets/bg-banner-second.png';
+import BannerTh from '../assets/bg-banner-third.png';
 
 const BannerThird = () => {
   return (
@@ -9,7 +9,7 @@ const BannerThird = () => {
         </h2>
         <p className="text-center text-white">Fernanda Bardela</p>
       </div>
-      <img src={BannerSec} alt="Família" className="w-full" />
+      <img src={BannerTh} alt="Família" className="w-full" />
     </div>
   );
 };

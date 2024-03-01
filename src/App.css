@@ -44,3 +44,9 @@ p {
 .btn-whats-nav:hover {
   background: #8ea3bf;
 }
+.videoyt {
+  margin-top: 30px;
+  background: #283959;
+  padding: 30px;
+  max-width: 600px;
+}
