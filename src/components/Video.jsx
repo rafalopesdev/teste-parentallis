@@ -1,7 +1,7 @@
 const Video = () => {
   return (
     <div className="w-full h-full spacer">
-      <div className="container m-auto" id="video">
+      <div className="container m-auto spacer-side" id="video">
         <h2 className="text-center text-2xl font-bold lg:text-4xl line-before text-[#69688C]">
           O que é a Educação Parental?
         </h2>

@@ -14,7 +14,9 @@
   background: #f29f8d;
   margin-top: 10px;
 }
-
+.spacer-side {
+  padding: 0 10px;
+}
 p {
   font-size: 1rem;
   font-weight: 400;
