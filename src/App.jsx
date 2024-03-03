@@ -1,13 +1,14 @@
 import './App.css';
 import About from './components/About';
-import Banner from './components/Banner';
+// import Banner from './components/Banner';
 import BannerFooter from './components/BannerFooter';
 import BannerSecond from './components/BannerSecond';
 import BannerThird from './components/BannerThird';
 import Consultoria from './components/Consultoria';
 import Fernanda from './components/Fernanda';
 import Footer from './components/Footer';
-import Nav from './components/Nav';
+import HeaderNav from './components/HeaderNav';
+// import Nav from './components/Nav';
 import Podcast from './components/Podcast';
 import Produtos from './components/Produtos';
 import Proposito from './components/Proposito';
@@ -17,8 +18,9 @@ import Youtube from './components/Youtube';
 function App() {
   return (
     <div>
-      <Nav />
-      <Banner />
+      <HeaderNav />
+      {/* <Nav /> */}
+      {/* <Banner /> */}
       <Video />
       <About />
       <Fernanda />

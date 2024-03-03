@@ -2,8 +2,8 @@ import ImgFamilyTop from '../assets/mother.png';
 
 const Banner = () => {
   return (
-    <div className="w-full h-screen relative flex items-center justify-center">
-      <div className="absolute container">
+    <div className="w-full h-screen relative top-0 flex items-center justify-center">
+      <div className="container">
         <h1 className="text-[#F29F8D] text-2xl md:text-6xl text-center">
           EDUCAÇÃO POSITIVA E RESPEITOSA<br></br>ASSISTÊNCIA PARENTAL
         </h1>
@@ -14,7 +14,7 @@ const Banner = () => {
       <img
         src={ImgFamilyTop}
         alt="Família"
-        className="w-full h-full object-cover"
+        className="w-full h-full absolute object-cover"
       />
     </div>
   );

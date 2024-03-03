@@ -47,6 +47,5 @@ p {
 .videoyt {
   margin-top: 30px;
   background: #283959;
-  padding: 30px;
-  max-width: 600px;
+  height: 200px;
 }
