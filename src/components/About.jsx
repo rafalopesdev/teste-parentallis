@@ -8,7 +8,7 @@ const About = () => {
         id="about"
       >
         <div>
-          <h2 className="text-center text-2xl font-bold lg:text-4xl line-before text-[#F29F8D]">
+          <h2 className="lg:text-left text-center lg:mt-0 mt-10 text-4xl font-bold lg:text-4xl line-before text-[#F29F8D]">
             Sobre a Parentallis
           </h2>
           <p className="text-white">
