@@ -39,7 +39,7 @@ const HeaderNav = () => {
               className={header ? 'hidden' : ''}
             />
             <span className={header ? 'text-[#F29F8D] text-3xl' : 'hidden'}>
-              Parentallis
+              PARENTALLIS
             </span>
             <ul className=" gap-[30px] hidden lg:flex text-white">
               <li>

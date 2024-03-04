@@ -5,7 +5,7 @@ import Podcast4 from '../assets/podcast4.jpg';
 
 const Podcast = () => {
   return (
-    <div className="w-full h-full bg-red-500">
+    <div className="w-full h-full">
       <h2 className="text-center text-2xl font-bold lg:text-4xl text-[#69688C]">
         Ouça o nosso Podcast
       </h2>

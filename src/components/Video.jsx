@@ -5,16 +5,14 @@ const Video = () => {
         <h2 className="text-center text-2xl font-bold lg:text-4xl line-before text-[#69688C]">
           O que é a Educação Parental?
         </h2>
-        <div className="max-w-screen-md bg-blue-400 m-auto">
-          <iframe
-            src="https://www.youtube.com/embed/TpIZcKaUy6A?si=94yhz4l6JvxVGstI"
-            title="YouTube video player"
-            // frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-            className="m-auto w-full h-96"
-          ></iframe>
-        </div>
+        <iframe
+          src="https://www.youtube.com/embed/TpIZcKaUy6A?si=94yhz4l6JvxVGstI"
+          title="YouTube video player"
+          // frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          className="mobile block m-auto"
+        ></iframe>
       </div>
     </div>
   );
