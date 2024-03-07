@@ -4,28 +4,28 @@ import { BiMenu } from 'react-icons/bi';
 import { useEffect, useState } from 'react';
 
 const Nav = () => {
-  const [header, setHeader] = useState(false);
-  const scrollHeader = () => {
-    if (window.scrollY >= 20) {
-      setHeader(true);
-    } else {
-      setHeader(false);
-    }
-  };
-  useEffect(() => {
-    window.addEventListener('scroll', scrollHeader);
-    return () => {
-      window.addEventListener('scroll', scrollHeader);
-    };
-  }, []);
+  // const [header, setHeader] = useState(false);
+  // const scrollHeader = () => {
+  //   if (window.scrollY >= 20) {
+  //     setHeader(true);
+  //   } else {
+  //     setHeader(false);
+  //   }
+  // };
+  // useEffect(() => {
+  //   window.addEventListener('scroll', scrollHeader);
+  //   return () => {
+  //     window.addEventListener('scroll', scrollHeader);
+  //   };
+  // }, []);
 
   return (
-    <div className={header ? 'bg-green-500 fixed w-full z-20' : 'bg-blue-500'}>
+    <div>
       <nav className="container m-auto flex items-center justify-between pt-3 pb-3 ">
-        <a href="" className={header ? 'hidden' : 'block'}>
+        <a href="">
           <img src={Logo} width={160} alt="Logo Parentallis" />
         </a>
-        <h2 className={header ? 'block' : 'hidden'}>Parentallis</h2>
+        <h2>Parentallis</h2>
         <ul className="hidden lg:flex items-center gap-6 menu">
           <li>
             <a href="#video">Educação Parentall</a>

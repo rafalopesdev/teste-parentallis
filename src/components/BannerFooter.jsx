@@ -2,9 +2,13 @@ import BannerBottom from '../assets/banner-footer.png';
 
 const BannerFooter = () => {
   return (
-    <div className="spacer-top w-full h-full relative flex items-center">
+    <div className="w-full h-64 relative flex items-center justify-center">
       <div className="container m-auto absolute bg-green-400"></div>
-      <img src={BannerBottom} alt="Família" className="w-full -z-10" />
+      <img
+        src={BannerBottom}
+        alt="Família"
+        className="w-full -z-10 w-full h-full object-cover"
+      />
     </div>
   );
 };

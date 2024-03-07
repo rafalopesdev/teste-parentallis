@@ -9,7 +9,7 @@ const Podcast = () => {
       <h2 className="text-center text-2xl font-bold lg:text-4xl text-[#69688C]">
         Ouça o nosso Podcast
       </h2>
-      <div className="container m-auto grid lg:grid-cols-4 justify-between gap-5">
+      <div className="container m-auto grid grid-cols-2 lg:grid-cols-4 justify-between gap-5">
         <div>
           <a href="" className="text-center block">
             <img src={Podcast1} alt="Podcast" />

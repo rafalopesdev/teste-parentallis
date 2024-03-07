@@ -8,7 +8,7 @@ const Proposito = () => {
       <h2 className="text-center text-2xl font-bold lg:text-4xl line-before text-[#69688C]">
         Nosso propósito
       </h2>
-      <div className="container spacer-side m-auto grid lg:grid-cols-3 gap-5">
+      <div className="container margin-lateral m-auto grid lg:grid-cols-3 gap-5">
         <div className="border-2 rounded-lg p-5">
           <img src={Girl} alt="Menina" className="m-auto" />
           <p className="text-center">

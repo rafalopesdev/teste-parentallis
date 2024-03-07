@@ -1,46 +1,50 @@
 import ImgFamilyTop from '../assets/mother.png';
 import Logo from '../assets/logo.svg';
-import { useEffect, useState } from 'react';
 import { BiMenu } from 'react-icons/bi';
+import { Link } from 'react-router-dom';
+import React from 'react';
 
 const HeaderNav = () => {
-  const [header, setHeader] = useState(false);
+  // const [header, setHeader] = useState(false);
 
-  const scrollHeader = () => {
-    if (window.scrollY >= 20) {
-      setHeader(true);
-    } else {
-      setHeader(false);
-    }
-  };
+  // const scrollHeader = () => {
+  //   if (window.scrollY >= 20) {
+  //     setHeader(true);
+  //   } else {
+  //     setHeader(false);
+  //   }
+  // };
 
-  useEffect(() => {
-    window.addEventListener('scroll', scrollHeader);
-    return () => {
-      window.addEventListener('scroll', scrollHeader);
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', scrollHeader);
+  //   return () => {
+  //     window.addEventListener('scroll', scrollHeader);
+  //   };
+  // }, []);
 
   return (
     <div className="w-full relative">
-      <div
-        className={
-          header
-            ? 'w-full bg-[#69688C] fixed z-20'
-            : 'w-full bg-[transparent] absolute'
-        }
-      >
-        <div className="container m-auto">
+      <div className="w-full bg-green-500 fixed">
+        <nav className="flex items-center justify-between">
+          <img src={Logo} width={180} alt="" />
+          <ul className="">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Teste 1</a>
+            </li>
+            <li>
+              <a href="">teste 2</a>
+            </li>
+            <li>
+              <a href="">Teste 3</a>
+            </li>
+          </ul>
+        </nav>
+        {/* <div className="container m-auto">
           <nav className="w-full p-3 flex items-center justify-between">
-            <img
-              src={Logo}
-              width={180}
-              alt=""
-              className={header ? 'hidden' : ''}
-            />
-            <span className={header ? 'text-[#F29F8D] text-3xl' : 'hidden'}>
-              PARENTALLIS
-            </span>
+            <img src={Logo} width={180} alt="" />
             <ul className=" gap-[30px] hidden lg:flex text-white">
               <li>
                 <a href="">Educação Parental</a>
@@ -60,7 +64,7 @@ const HeaderNav = () => {
               <BiMenu />
             </a>
           </nav>
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-row justify-center">
         <div className="absolute container m-auto h-full flex items-center justify-center">

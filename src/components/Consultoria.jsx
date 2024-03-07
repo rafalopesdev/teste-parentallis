@@ -3,7 +3,7 @@ import KidsTech from '../assets/kids-techologyc.png';
 const Consultoria = () => {
   return (
     <div className="w-full h-full" id="consultoria">
-      <div className="container spacer-side m-auto">
+      <div className="container margin-lateral m-auto">
         <h2 className="text-center text-2xl font-bold lg:text-4xl text-[#69688C]">
           Nossa Consultoria
         </h2>

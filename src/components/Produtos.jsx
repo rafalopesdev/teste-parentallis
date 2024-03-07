@@ -5,7 +5,7 @@ import Company from '../assets/company.svg';
 const Produtos = () => {
   return (
     <div className="spacer w-full" id="produto">
-      <div className="container m-auto spacer-side">
+      <div className="container m-auto margin-lateral">
         <h2 className="text-center text-2xl font-bold lg:text-4xl line-before text-[#69688C]">
           Nossos Produtos
         </h2>

@@ -6,7 +6,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 const Footer = () => {
   return (
     <div className="w-full h-full bg-[#283959]">
-      <div className="container m-auto flex justify-center">
+      <div className="container m-auto flex justify-center margin-lateral">
         <div className="bg-[#8EA3BF] rounded-xl relative -top-16 w-full max-w-xl p-5">
           <h2 className="text-center text-2xl font-bold lg:text-4xl text-[#283959]">
             Quer saber mais?

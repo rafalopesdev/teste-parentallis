@@ -55,17 +55,53 @@ p {
   margin-top: 10px;
   background: green;
 }
-@media (min-width: 768px) and (max-width: 1400px) {
-  .mobile-yt {
-    width: 200px;
-    height: 140px;
+.margin-lateral {
+  padding: 0px 15px;
+}
+.title-banner {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+.video-fernanda {
+  width: 630px;
+  height: 350px;
+}
+.box-video-yt {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .video-fernanda {
+    width: 100%;
+    height: 275px;
+  }
+  .box-video-yt {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media (max-width: 375px) {
+  .video-fernanda {
+    width: 100%;
+    height: 160px;
+  }
+  .box-video-yt {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media (max-width: 1440px) {
+  .box-video-yt {
+    width: 100%;
+    height: 250px;
   }
 }
 
 @media (min-width: 360px) and (max-width: 768px) {
-  .mobile {
-    width: 350px;
-    height: 200px;
-    margin-top: 10px;
+  .title-banner {
+    font-size: 1.75rem;
   }
 }
